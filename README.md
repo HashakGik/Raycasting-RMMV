@@ -13,11 +13,11 @@ This plugin allows to create an explorable 3D maze:
 
 Mazes can be generated from existing maps (with walls large 1x1 tile):
 
-![Map](screenshots/map.png)
+![Map](screenshots/Map.png)
 
 ...or automatically, by specifying only the maze size:
 
-![Generate](screenshots/generate.png)
+![Generate](screenshots/Generate.png)
 
 
 
