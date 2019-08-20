@@ -54,4 +54,4 @@ Additional resources
 
 A demo can be downloaded in the release section, or can be played online [here](https://strontiumaluminate.altervista.org/raycasting).
 
-The internal JSDoc documentation is available [here](https://HashakGik.github.io/Raycasting-RMMV).
+The internal JSDoc documentation is available [here](https://HashakGik.github.io/Raycasting-RMMV/).
