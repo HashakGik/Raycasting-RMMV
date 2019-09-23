@@ -352,7 +352,7 @@ var Maze = (function (my) {
                 return c.x > 0 && c.x < my.genSize - 1 && c.y > 0 && c.y < my.genSize - 1 &&
                     !cells[c.x][c.y];
             });
-
+            
             // Pick a random neighbour.
             if (neighbours.length > 0) {
                 var k = Math.floor(Math.random() * neighbours.length);
