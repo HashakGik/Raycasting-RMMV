@@ -123,10 +123,17 @@ var Maze = (function (my) {
                 }
 
                 if (Input.isPressed("shift")) {
-                    this.strafing = true;
+                    this.strafing = !Input.isLastInputGamepad(); // For gamepad input, invert the behaviour, since axis 0 defaults to strafe.
                 }
                 else {
-                    this.strafing = false;
+                    this.strafing = Input.isLastInputGamepad();
+                }
+
+                if (Input.readAxis(2, 0.5) < 0) {
+                    my.player.rotateLeft();
+                }
+                else if (Input.readAxis(2, 0.5) > 0) {
+                    my.player.rotateRight();
                 }
 
                 if (Input.isPressed("up")) {
